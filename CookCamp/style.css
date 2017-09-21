@@ -72,3 +72,39 @@ h2 {
     font-size: 20px;
     padding-left: 30px;
 }
+
+.l-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.l-category-wrapper {
+    width: 180px;
+}
+
+.l-category-nav ul {
+    background: #ffffff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.l-category-nav ul li {
+    background: url("images/icon/arrow.png") no-repeat 10px center;
+    padding-left: 30px;
+    border-bottom: dashed 1px #d5d5d5;
+}
+
+.l-category-nav ul li:last-child {
+    border-bottom: 0;
+}
+
+main {
+    width: 600px;
+}
+
+aside {
+    width: 160px;
+}
