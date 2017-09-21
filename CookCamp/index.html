@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>CookCamp[クックキャンプ]</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="base.js"></script>
 </head>
 
 <body>
@@ -38,13 +40,13 @@
 </header>
 <section class="l-main-view">
     <figure>
-        <img src="images/contents/mainView.jpg" width="960" height="100%" alt="家庭で簡単フレンチ特集">
+        <img src="images/contents/mainView.jpg" width="960" height="auto" alt="家庭で簡単フレンチ特集">
     </figure>
 </section>
 <div class="l-content-wrapper">
     <section class="l-category-wrapper">
         <nav class="l-category-nav">
-            <h2>料理別レシピ</h2>
+            <h2 id="recipe">料理別レシピ</h2>
             <ul>
                 <li>和食</li>
                 <li>イタリアン</li>
@@ -114,7 +116,7 @@
             <div>
 
                 <figure>
-                    <img src="images/contents/topics.jpg" width="230" height="100%" alt="今だからこそ見直したい「和食」">
+                    <img src="images/contents/topics.jpg" width="230" height="auto" alt="今だからこそ見直したい「和食」">
                 </figure>
 
                 <article>
@@ -132,10 +134,10 @@
             <h2>簡単!おすすめレシピ</h2>
             <section class="l-season-recipe-wrapper">
                 <figure>
-                    <img src="images/contents/pushRecipes1.jpg" width="230" height="100%" alt="季節の食材〜春〜">
+                    <img src="images/contents/pushRecipes1.jpg" width="230" height="auto%" alt="季節の食材〜春〜">
                 </figure>
                 <article>
-                    <p>季節の食材〜春〜</p>
+                    <b><p>季節の食材〜春〜</p></b>
                     <p>
                         新たまねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。<br>
                         それでは、春野菜を使ったレシピを紹介しましょう。
@@ -146,7 +148,7 @@
 
             <section class="l-season-recipe-wrapper">
                 <figure>
-                    <img src="images/contents/pushRecipes2.jpg" width="230" height="100%" alt="季節の食材〜春〜">
+                    <img src="images/contents/pushRecipes2.jpg" width="230" height="auto%" alt="季節の食材〜春〜">
                 </figure>
                 <article>
                     <p>春野菜を食べて花粉症対策?!</p>
@@ -171,7 +173,9 @@
         </div>
     </aside>
 </div>
+
 <footer>
+    <button id ="page_top">Topへ</button>
     <nav>
         <ul>
             <li>サイトマップ</li>
