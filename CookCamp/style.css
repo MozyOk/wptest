@@ -1,12 +1,35 @@
-div {
+.l-header {
 	margin: 0 auto;
   	width: 960px;
 }
 
-p{
+.l-header section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-header section h1 {
+    margin: 0;
+}
+
+.l-header section p {
+    margin: 0;
+}
+
+p {
 	color: #664433;
 }
 
-li{
+li {
 	color: #664433;
+    text-align: center;
+    width: 192px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
