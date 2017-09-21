@@ -35,7 +35,16 @@ p {
 	color: #664433;
 }
 
-li {
+
+.l-header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.l-header-nav ul li {
     border-right: solid 1px;
     box-sizing: border-box;
 	color: #664433;
@@ -43,16 +52,8 @@ li {
     width: 192px;
 }
 
-li:last-child {
+.l-header-nav ul li:last-child {
     border-right: 0;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .l-main-view {
@@ -62,4 +63,12 @@ ul {
 
 .l-main-view figure {
     margin: 0;
+}
+
+h2 {
+    background: url("images/icon/dish.png") no-repeat 10px center #99bb22;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 30px;
 }
