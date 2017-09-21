@@ -10,8 +10,8 @@ header {
 }
 
 .l-header {
-	margin: 0 auto;
-  	width: 960px;
+    margin: 0 auto;
+    width: 960px;
 }
 
 .l-header section {
@@ -28,13 +28,12 @@ header {
 }
 
 .l-header nav {
-    margin: 10px  0 2px 0;
+    margin: 10px 0 2px 0;
 }
 
 p {
-	color: #664433;
+    color: #000000;
 }
-
 
 .l-header-nav ul {
     display: flex;
@@ -47,7 +46,7 @@ p {
 .l-header-nav ul li {
     border-right: solid 1px;
     box-sizing: border-box;
-	color: #664433;
+    color: #664433;
     text-align: center;
     width: 192px;
 }
@@ -57,7 +56,7 @@ p {
 }
 
 .l-main-view {
-    margin: 0 auto;
+    margin: 0 auto 15px;
     width: 960px;
 }
 
@@ -84,8 +83,13 @@ h2 {
     width: 180px;
 }
 
-.l-category-nav ul {
+.l-category-nav {
     background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.l-category-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -93,12 +97,12 @@ h2 {
 
 .l-category-nav ul li {
     background: url("images/icon/arrow.png") no-repeat 10px center;
-    padding-left: 30px;
     border-bottom: dashed 1px #d5d5d5;
+    padding: 5px 30px;
 }
 
 .l-category-nav ul li:last-child {
-    border-bottom: 0;
+    border-bottom: none;
 }
 
 main {
@@ -107,4 +111,156 @@ main {
 
 aside {
     width: 160px;
+}
+
+.l-new-recipe {
+    background: #ffffff;
+    margin: 0 0 15px 0;
+    padding: 10px;
+}
+
+.l-new-recipe ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.l-new-recipe ul li {
+    width: 90px;
+}
+
+.l-new-recipe ul li figure {
+    margin: 0;
+    text-align: center;
+}
+
+.l-new-recipe ul li figure figcaption {
+    font-size: 10px;
+}
+
+.l-now-washoku {
+    background: #ffffff;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+.l-now-washoku div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-now-washoku div figure {
+    margin: 0;
+    width: 230px;
+}
+
+.l-now-washoku div article {
+    margin-left: 10px;
+}
+
+.l-now-washoku div article p {
+    font-size: 14px;
+    margin: 0 0 1em 0;
+    text-indent: 1em;
+}
+
+.l-now-washoku div article p:last-child {
+    margin: 0;
+}
+
+.l-now-washoku nav {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    margin: 10px 0 0 0;
+}
+
+.l-now-washoku nav a {
+    background: url("images/icon/arrow.png") no-repeat left center;
+    color: #fc8833;
+    display: block;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+.l-season-recipe {
+    background: #ffffff;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+.l-season-recipe .l-season-recipe-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.l-season-recipe l-season-recipe-wrapper figure {
+    margin: 0;
+    width: 230px;
+}
+
+.l-season-recipe l-season-recipe-wrapper article {
+    margin-left: 10px;
+}
+
+.l-season-recipe l-season-recipe-wrapper article ul {
+    list-style: none;
+    padding: 0;
+}
+
+.l-season-recipe l-season-recipe-wrapper article p {
+    font-size: 14px;
+    margin: 0 0 1em 0;
+    text-indent: 1em;
+}
+
+.l-season-recipe l-season-recipe-wrapper article p:last-child {
+    margin: 0;
+}
+
+.l-season-recipe nav {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    margin: 10px 0 0 0;
+}
+
+.l-season-recipe nav a {
+    background: url("images/icon/arrow.png") no-repeat left center;
+    color: #fc8833;
+    display: block;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+
+aside {
+    width: 154px;
+}
+
+aside div {
+    margin: 0 0 15px 0;
+}
+
+footer {
+    background: #ffffff;
+    border-bottom: solid 1px #cccccc;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    border-right: solid 1px #cccccc;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+footer nav ul li:last-child {
+    border-right: none;
 }
