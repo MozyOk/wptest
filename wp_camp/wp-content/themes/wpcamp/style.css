@@ -130,8 +130,8 @@ aside {
 
 .l-new-recipe {
     background: #ffffff;
-    padding: 0;
     margin: 0 0 15px 0;
+    padding: 10px;
 }
 
 .l-new-recipe ul {

@@ -31,5 +31,12 @@ add_action( 'widgets_init', 'theme_widgets_init' );
 
 function theme_setup() {
 	add_theme_support( 'title-tag' );
+
+	register_nav_menus( array(
+		'primary' => 'グローバルナビゲーション',
+		'secondary' => 'フッターナビゲーション'
+	) );
+
+
 }
 add_action( 'after_setup_theme', 'theme_setup' );

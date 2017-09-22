@@ -24,13 +24,7 @@
 		</section>
 
 		<nav class="l-header-nav">
-			<ul>
-				<li>新着</li>
-				<li>料理から検索</li>
-				<li>食材から検索</li>
-				<li>旬の料理検索</li>
-				<li>ランキング</li>
-			</ul>
+            <?php wp_nav_menu(array("thema_location" => "primary"))?>
 		</nav>
 	</div>
 </header>

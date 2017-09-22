@@ -1,14 +1,8 @@
 <footer>
 	<button id ="page_top">Topへ</button>
 	<nav>
-		<ul>
-			<li>サイトマップ</li>
-			<li>プライバシーポリシー</li>
-			<li>お問い合わせ</li>
-			<li>ご利用ガイド</li>
-		</ul>
+		<?php wp_nav_menu(array("theme_location" => "secondary"))?>
 	</nav>
-
 	<small>Copyright&copy;Camp All Right Reserved.</small>
 </footer>
 <?php wp_footer(); ?>
