@@ -11,5 +11,6 @@
 
 	<small>Copyright&copy;Camp All Right Reserved.</small>
 </footer>
+<?php wp_footer(); ?>
 </body>
 </html>

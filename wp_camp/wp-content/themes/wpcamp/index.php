@@ -1,35 +1,10 @@
-<body>
-<header>
-    <div class="l-header">
-        <section>
-            <div>
-                <h1>
-                    <img src="images/structure/logo.png" width="222" height="38" alt="CookCampのロゴ">
-                </h1>
-                <p>誰でも作れる簡単料理レシピ掲載サイト</p>
-            </div>
-            <div>
-                <form method="get" action="">
-                    <input type="search" placeholder="料理名・食材名で検索">
-                    <input type="submit" value="検索">
-                </form>
-            </div>
-        </section>
+<?php
+get_header();
+?>
 
-        <nav class="l-header-nav">
-            <ul>
-                <li>新着</li>
-                <li>料理から検索</li>
-                <li>食材から検索</li>
-                <li>旬の料理検索</li>
-                <li>ランキング</li>
-            </ul>
-        </nav>
-    </div>
-</header>
 <section class="l-main-view">
     <figure>
-        <img src="images/contents/mainView.jpg" width="960" height="auto" alt="家庭で簡単フレンチ特集">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/mainView.jpg" width="960" height="auto" alt="家庭で簡単フレンチ特集">
     </figure>
 </section>
 <div class="l-content-wrapper">
@@ -68,32 +43,32 @@
             <ul>
                 <li>
                     <figure>
-                        <img src="images/contents/newRecipes1.jpg" width="80" height="80" alt="季節の彩り野菜">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/newRecipes1.jpg" width="80" height="80" alt="季節の彩り野菜">
                         <figcaption>季節の彩り野菜</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/contents/newRecipes2.jpg" width="80" height="80" alt="簡単かぼちゃスープ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/newRecipes2.jpg" width="80" height="80" alt="簡単かぼちゃスープ">
 
                         <figcaption>簡単かぼちゃスープ</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/contents/newRecipes3.jpg" width="80" height="80" alt="ヘルシー米粉パン">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/newRecipes3.jpg" width="80" height="80" alt="ヘルシー米粉パン">
                         <figcaption>ヘルシー米粉パン</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/contents/newRecipes4.jpg" width="80" height="80" alt="ぷりぷりエビ料理">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/newRecipes4.jpg" width="80" height="80" alt="ぷりぷりエビ料理">
                         <figcaption>ぷりぷりエビ料理</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/contents/newRecipes5.jpg" width="80" height="80" alt="かんたん鴨南蛮">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/newRecipes5.jpg" width="80" height="80" alt="かんたん鴨南蛮">
                         <figcaption>かんたん鴨南蛮</figcaption>
                     </figure>
                 </li>
@@ -105,7 +80,7 @@
             <div>
 
                 <figure>
-                    <img src="images/contents/topics.jpg" width="230" height="auto" alt="今だからこそ見直したい「和食」">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/contents/topics.jpg" width="230" height="auto" alt="今だからこそ見直したい「和食」">
                 </figure>
 
                 <article>
@@ -123,7 +98,7 @@
             <h2>簡単!おすすめレシピ</h2>
             <section class="l-season-recipe-wrapper">
                 <figure>
-                    <img src="images/contents/pushRecipes1.jpg" width="230" height="auto%" alt="季節の食材〜春〜">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/contents/pushRecipes1.jpg" width="230" height="auto%" alt="季節の食材〜春〜">
                 </figure>
                 <article>
                     <b><p>季節の食材〜春〜</p></b>
@@ -137,10 +112,10 @@
 
             <section class="l-season-recipe-wrapper">
                 <figure>
-                    <img src="images/contents/pushRecipes2.jpg" width="230" height="auto%" alt="季節の食材〜春〜">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/contents/pushRecipes2.jpg" width="230" height="auto%" alt="季節の食材〜春〜">
                 </figure>
                 <article>
-                    <p>春野菜を食べて花粉症対策?!</p>
+                    <b><p>春野菜を食べて花粉症対策?!</p></b>
                     <p>
                         春になると花粉症に悩まされる人は多いと思います。　<br>
                         この花粉症、ある食材を取ることで少し緩和されるんです！<br>
@@ -155,10 +130,13 @@
 
     <aside>
         <div>
-            <img src="images/contents/advert1.png" width="154" height="351" alt="codecamp">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/contents/advert1.png" width="154" height="351" alt="codecamp">
         </div>
         <div>
-            <img src="images/contents/advert2.png" width="154" height="351" alt="webdesign">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/contents/advert2.png" width="154" height="351" alt="webdesign">
         </div>
     </aside>
 </div>
+
+<?php
+get_footer();
