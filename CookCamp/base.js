@@ -1,5 +1,5 @@
 $(function () {
-    $("h2").on("click", function () {
+    $("#recipe").on("click", function () {
         $(this).next().not(":animated").slideToggle(500);
     })
 
