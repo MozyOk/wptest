@@ -4,7 +4,6 @@ function theme_scripts() {
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'theme-base-script', get_template_directory_uri() . '/base.js', array( 'jquery' ), '1.0.0', false );
 }
-
 add_action( 'wp_enqueue_scripts', 'theme_scripts' );
 
 function theme_widgets_init() {
@@ -28,5 +27,9 @@ function theme_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-
 add_action( 'widgets_init', 'theme_widgets_init' );
+
+function theme_setup() {
+	add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'theme_setup' );

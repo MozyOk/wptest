@@ -111,16 +111,9 @@ get_header();
             </div>
         </main>
 
-        <aside>
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/contents/advert1.png" width="154"
-                     height="351" alt="codecamp">
-            </div>
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/contents/advert2.png" width="154"
-                     height="351" alt="webdesign">
-            </div>
-        </aside>
+	    <?php get_sidebar(ad); ?>
+
+
     </div>
 
 <?php

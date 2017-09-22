@@ -1,5 +1,5 @@
 <section class="l-category-wrapper">
 	<?php
-	dynamic_sidebar( "SidebarL" )
+	dynamic_sidebar( "sidebar-l" )
 	?>
 </section>

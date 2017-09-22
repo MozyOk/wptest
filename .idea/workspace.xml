@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d969b1ef-dd47-40ae-af8b-c1b1e14bf6f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar-ad.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/functions.php" afterPath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/header.php" afterPath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/index.php" afterPath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar.php" afterPath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/style.css" afterPath="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +19,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CookCamp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="166" column="10" lean-forward="false" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="10" />
+              <folding>
+                <element signature="e#5925#5931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CookCamp/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,8 +44,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="245" column="19" lean-forward="true" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
+            <state relative-caret-position="292">
+              <caret line="132" column="14" lean-forward="false" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -39,8 +54,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -59,8 +74,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="1710">
+              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +85,17 @@
         <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar-ad.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar-ad.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -79,8 +104,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -90,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,6 +133,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>img src=&quot;</find>
+      <find>padding</find>
     </findStrings>
     <replaceStrings>
       <replace>img src=&quot;&lt;?php echo get_template_directory_uri(); ?&gt;/</replace>
@@ -121,12 +147,13 @@
       <list>
         <option value="$PROJECT_DIR$/CookCamp/index.html" />
         <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/footer.php" />
-        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/header.php" />
         <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/base.js" />
-        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/style.css" />
-        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar.php" />
         <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/index.php" />
+        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar-ad.php" />
+        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/style.css" />
         <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/functions.php" />
+        <option value="$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/header.php" />
       </list>
     </option>
   </component>
@@ -250,12 +277,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506043471202</updated>
-      <workItem from="1506043472413" duration="5692000" />
+      <workItem from="1506043472413" duration="7321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5692000" />
+    <option name="totallyTimeSpent" value="7321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -315,16 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CookCamp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="144" column="10" lean-forward="false" selection-start-line="144" selection-start-column="10" selection-end-line="144" selection-end-column="10" />
-          <folding>
-            <element signature="e#5925#5931#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CookCamp/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -333,18 +350,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CookCamp/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -357,42 +366,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CookCamp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CookCamp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="166" column="10" lean-forward="false" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="10" />
+          <folding>
+            <element signature="e#5925#5931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/index.php">
+    <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/sidebar-ad.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="245" column="19" lean-forward="true" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
+        <state relative-caret-position="292">
+          <caret line="132" column="14" lean-forward="false" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp_camp/wp-content/themes/wpcamp/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>

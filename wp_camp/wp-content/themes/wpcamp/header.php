@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CookCamp[クックキャンプ]</title>
 	<?php wp_head(); ?>
 </head>
 <body>
