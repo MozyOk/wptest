@@ -77,41 +77,23 @@ get_header();
 
             <div class="l-season-recipe">
                 <h2>簡単!おすすめレシピ</h2>
-                <section class="l-season-recipe-wrapper">
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/pushRecipes1.jpg"
-                             width="230" height="auto%" alt="季節の食材〜春〜">
-                    </figure>
-                    <article>
-                        <b><p>季節の食材〜春〜</p></b>
-                        <p>
-                            新たまねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。<br>
-                            それでは、春野菜を使ったレシピを紹介しましょう。
-                        </p>
-                    </article>
-                </section>
-                <nav><a href="">続きを読む</a></nav>
 
-                <section class="l-season-recipe-wrapper">
-                    <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/contents/pushRecipes2.jpg"
-                             width="230" height="auto%" alt="季節の食材〜春〜">
-                    </figure>
-                    <article>
-                        <b><p>春野菜を食べて花粉症対策?!</p></b>
-                        <p>
-                            春になると花粉症に悩まされる人は多いと思います。　<br>
-                            この花粉症、ある食材を取ることで少し緩和されるんです！<br>
-                            さて、その食材とは・・・？
-                        </p>
-                    </article>
-                </section>
-                <nav><a href="">続きを読む</a></nav>
-
+				<?php while ( have_posts() ) : the_post(); ?>
+                    <section class="l-season-recipe-wrapper">
+                        <figure>
+							<?php the_post_thumbnail(); ?>
+                        </figure>
+                        <article>
+                            <h3><?php the_title(); ?></h3>
+                            <p><?php the_excerpt(); ?></p>
+                            <nav></nav>
+                        </article>
+                    </section>
+				<?php endwhile; ?>
             </div>
         </main>
 
-	    <?php get_sidebar(ad); ?>
+		<?php get_sidebar( ad ); ?>
 
 
     </div>

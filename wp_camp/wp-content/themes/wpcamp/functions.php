@@ -31,6 +31,7 @@ add_action( 'widgets_init', 'theme_widgets_init' );
 
 function theme_setup() {
 	add_theme_support( 'title-tag' );
+	add_theme_support('post-thumbnails');
 
 	register_nav_menus( array(
 		'primary' => 'グローバルナビゲーション',
